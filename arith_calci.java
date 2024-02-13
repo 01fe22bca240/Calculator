@@ -51,8 +51,8 @@ public class arith_calci{
         a.sub(num1, num2);
         a.mult(num1, num2);
         a.div(num1, num2);
-        a.square(num1, num2);
-        a.cube(num1, num2);
+        a.square(num1, 2);
+        a.cube(num1, 3);
         
         // sc.close();
 
