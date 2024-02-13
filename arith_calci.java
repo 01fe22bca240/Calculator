@@ -1,51 +1,59 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 import java.lang.Math;
 /**
  * The "arith_calci" class is a Java program that performs basic arithmetic operations (addition,
  * subtraction, multiplication, and division) on two float numbers.
  */
 public class arith_calci{
-    float res;
+    // float res;
     
     public static void main(String[] args){
-        float num1, num2;
-        char oper;
+        float num1 = 10, num2 = 5;
+        // char oper;
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter num1 : ");
-        num1 = sc.nextFloat();
-        System.out.print("Enter num2 (for square and cube num2 is dicarded) : ");
-        num2 = sc.nextFloat();
-        System.out.print("Enter operator (+, -, *, /, s -> square, c -> cube) : ");
-        oper = sc.next().charAt(0);
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter num1 : ");
+        // num1 = sc.nextFloat();
+        // System.out.print("Enter num2 (for square and cube num2 is dicarded) : ");
+        // num2 = sc.nextFloat();
+        // System.out.print("Enter operator (+, -, *, /, s -> square, c -> cube) : ");
+        // oper = sc.next().charAt(0);
 
         arith_calci a = new arith_calci();
 
         // The `switch` statement is used to perform different actions based on the value of the `oper`
         // variable.
-        switch (oper) {
-            case '+':
-                a.add(num1,num2);
-                break;
-            case '-':
-                a.sub(num1,num2);
-                break;
-            case '*':
-                a.mult(num1,num2);
-                break;
-            case '/':
-                a.div(num1,num2);
-                break;
-            case 's':
-                a.square(num1, 2);
-                break;
-            case 'c':
-                a.cube(num1, 3);
-                break;
-            default:
-                break;
-        }
+        // switch (oper) {
+        //     case '+':
+        //         a.add(num1,num2);
+        //         break;
+        //     case '-':
+        //         a.sub(num1,num2);
+        //         break;
+        //     case '*':
+        //         a.mult(num1,num2);
+        //         break;
+        //     case '/':
+        //         a.div(num1,num2);
+        //         break;
+        //     case 's':
+        //         a.square(num1, 2);
+        //         break;
+        //     case 'c':
+        //         a.cube(num1, 3);
+        //         break;
+        //     default:
+        //         break;
+        // }
 
+        System.out.println("num1 : "+ num1 + "and num2 : "+ num2);
+        a.add(num1, num2);
+        a.sub(num1, num2);
+        a.mult(num1, num2);
+        a.div(num1, num2);
+        a.square(num1, num2);
+        a.cube(num1, num2);
+        
         sc.close();
 
     }
