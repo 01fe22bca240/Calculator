@@ -5,7 +5,7 @@ import java.lang.Math;
  * subtraction, multiplication, and division) on two float numbers.
  */
 public class arith_calci{
-    // float res;
+    float res;
     
     public static void main(String[] args){
         float num1 = 10, num2 = 5;
@@ -54,7 +54,7 @@ public class arith_calci{
         a.square(num1, num2);
         a.cube(num1, num2);
         
-        sc.close();
+        // sc.close();
 
     }
 
