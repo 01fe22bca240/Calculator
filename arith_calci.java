@@ -46,7 +46,7 @@ public class arith_calci{
         //         break;
         // }
 
-        System.out.println("num1 : "+ num1 + "and num2 : "+ num2);
+        System.out.println("num1 : "+ num1 + "  and num2 : "+ num2);
         a.add(num1, num2);
         a.sub(num1, num2);
         a.mult(num1, num2);
