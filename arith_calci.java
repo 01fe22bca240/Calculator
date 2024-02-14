@@ -1,5 +1,5 @@
 // import java.util.Scanner;
-import java.lang.Math;
+// import java.lang.Math;
 /**
  * The "arith_calci" class is a Java program that performs basic arithmetic operations (addition,
  * subtraction, multiplication, and division) on two float numbers.
@@ -51,8 +51,8 @@ public class arith_calci{
         a.sub(num1, num2);
         a.mult(num1, num2);
         a.div(num1, num2);
-        a.square(num1, 2);
-        a.cube(num1, 3);
+        // a.square(num1, 2);
+        // a.cube(num1, 3);
         
         // sc.close();
 
@@ -107,14 +107,14 @@ public class arith_calci{
         System.out.println("Quotient : "+ res);
     }
 
-    public void square(float a, float b){
-        double res = Math.pow(a, b);
-        System.out.println("Square : "+ res);
-    }
+    // public void square(float a, float b){
+    //     double res = Math.pow(a, b);
+    //     System.out.println("Square : "+ res);
+    // }
 
-    public void cube(float a, float b){
-        double res = Math.pow(a, b); 
-        System.out.println("Cube : "+ res);
-    }
+    // public void cube(float a, float b){
+    //     double res = Math.pow(a, b); 
+    //     System.out.println("Cube : "+ res);
+    // }
 
 }
